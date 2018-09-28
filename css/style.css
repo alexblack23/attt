@@ -29,12 +29,8 @@ textarea {
 @media only screen
 and (min-device-width : 414px)
 and (max-device-width : 736px) {
-    #intro {
-         background: url("../img/imgs/logo_startovaya.jpg") ;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100%;
-    background-attachment: fixed;
+    #intro { 
+    background-attachment: unset;
         height: 150px;
         margin-top: 56px;
     }
