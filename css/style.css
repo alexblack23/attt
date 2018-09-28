@@ -30,7 +30,7 @@ textarea {
 and (min-device-width : 414px)
 and (max-device-width : 736px) {
     #intro {
-        background-attachment: unset;
+    
         height: 150px;
         margin-top: 56px;
     }
