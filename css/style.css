@@ -1,6 +1,6 @@
-html,body,header,#intro {
+/*html,body,header,#intro {
     height: 100%;
-}
+}*/
 #intro {
     background: url("../img/imgs/logo_startovaya.jpg") ;
     background-repeat: no-repeat;
