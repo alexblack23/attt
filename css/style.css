@@ -1,0 +1,48 @@
+html,body,header,#intro {
+    height: 100%;
+}
+#intro {
+    background: url("../img/imgs/logo_startovaya.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+.test2 {
+    opacity: 0.5;
+}
+textarea {
+    resize: none
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: center center no-repeat;
+    background-color: black;
+}
+<<<<<<< HEAD
+
+
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+    #intro {
+        background-attachment: unset;
+        height: 150px;
+        margin-top: 56px;
+    }
+}
+=======
+
+
+@media (max-width: 400px) {
+    #intro {
+        background-attachment: unset;
+    }
+>>>>>>> 388c2d24e2b78afa173a1e10a444fdb31b40fc44
+
+}
+

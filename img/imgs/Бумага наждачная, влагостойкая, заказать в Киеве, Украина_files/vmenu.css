@@ -1,0 +1,99 @@
+
+.left_menu > ul > li {
+float: left;
+clear:both;
+margin-bottom: 5px;
+position:relative;
+padding:0;
+list-style:none;
+width: 270px;
+
+
+}
+.left_menu > ul > li > a, .left_menu > ul > li > p {
+display:block;
+position:relative;
+z-index: 90;
+min-width: 227px;
+padding: 11px 7px 11px 36px;
+border: 1px solid #068ccb;
+background-color: #068CCB;
+background-image: url("left_menu_pointer.png"), url("lmenu_bg.gif");
+background-position: 12px 14px, left bottom;
+background-repeat:  no-repeat, repeat-x;
+font: 17px Arial;
+color: #fff;
+text-decoration: none;
+-webkit-transition: all 0.2s ease;
+-moz-transition: all 0.2s ease;
+-o-transition: all 0.2s ease;
+transition: all 0.2s ease;
+
+
+}
+.left_menu > ul > li.current > a, .left_menu > ul > li.current > p, .left_menu > ul > li:hover > a, .left_menu > ul > li:hover > p {
+border-color: #08598e;
+background-color: #01346d;
+background-image: url("left_menu_pointer.png"), url("lmenu_currentbg.gif");
+background-position: 12px 15px, left bottom;
+background-repeat:  no-repeat, repeat-x;
+color: #fff;
+}
+
+
+.menu {
+ margin-left: 10px;
+ display: none;
+}
+li.current > .menu {
+ display: block;
+}
+
+.menu li {
+  background-color: #e1f2fc;
+  background-image: url('submenu_b_bg.gif');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+  cursor: pointer;
+  padding: 10px 10px 10px 32px;
+  width: 207px;
+}
+.menu li a, .menu li p {
+	color: #1d1e19;
+	font: 14px Arial;
+	text-decoration: none;
+}
+.menu li:hover a {
+	text-decoration: underline;
+	color: #1297da
+}
+.menu li:hover, .menu li.current {
+ background: #c8e7fa url('submenu_b_bg.gif') no-repeat center bottom;
+}
+.menu > li:first-child {
+}
+.menu > li:first-child:hover {
+}
+.menu > li li:first-child {
+ border-top: 1px solid #dfdfdf;
+
+}
+.menu li:last-child {
+	background-image: none;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.menu ul li {
+box-shadow: 2px 1px 3px 0px #e9e9e9;
+-moz-box-shadow: 2px 1px 3px 0px #e9e9e9;
+-webkit-box-shadow: 2px 1px 3px 0px #e9e9e9;
+
+}
+.menu ul li:last-child {
+box-shadow: 2px 2px 3px 0px #e9e9e9;
+-moz-box-shadow: 2px 2px 3px 0px #e9e9e9;
+-webkit-box-shadow: 2px 2px 3px 0px #e9e9e9;
+
+}
