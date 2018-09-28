@@ -34,7 +34,7 @@ and (max-device-width : 736px) {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
-    background-attachment: fixed;
+    background-attachment: unset;
         height: 150px;
         margin-top: 56px;
     }
